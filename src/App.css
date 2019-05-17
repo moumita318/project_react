@@ -1,33 +1,309 @@
-.App {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+.navpoint {
+  float:right;
+}
+
+.navpoint a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top:14px;
+}
+
+.navpoint a:hover:not(.active) {
+  background-color:LightSalmon;
+}
+
+.logo2{
+  margin-top:20px;
+}
+
+.logo{
+  margin-top:6px;
+}
+
+main{
+  text-align: center;
+  margin-top:6%;
+}
+
+.picbox{
+  display:flex;
+}
+
+.box{
+  width:600px;
+  height:300px;
+  border-radius:15px;
+  border: 2px solid white;
+  margin-left:50px;
+  margin-top:200px;
+  padding:20px;
+  position:relative;
+  box-shadow: 1px 2px 8px 4px #DCDCDC;
+
+}
+
+.pic{
+  margin-left:60px;
+}
+
+button{
+  margin-top:40px;
+  margin-left:160px;
+  border-radius:6px;
+  width:140px;
+  border-color:#FF0000;
+  height:50px;
+  background:#FF0000;
+  box-shadow: 1px 2px 8px 4px #FF4500;
+  color:white;
+}
+
+.dropdowns{
+  width:500px;
+  height:40px;
+  border-radius:6px;
+  margin-top:30px;
+  margin-left:6px;
+}
+
+.topic{
+  text-align: center;
+  margin-top:100px;
+}
+.pictures{
+  display:flex;
+  padding:60px;
+  margin-left:80px;
+}
+.Insured{
+  margin-left:220px;
+
+}
+.SelectGIF{
+margin-left:240px;
+}
+.Device{
+  margin-bottom:60px;
+}
+
+h4{
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.description{
+  display:flex;
+}
+h3{
+  margin-left:180px;
+}
+.firstelement{
+  margin-right:60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/***.lowerelement{
+  position:absolute;
+  background-color:#2F4F4F;
+  width:1540px;
+  height:258px;
+  color:white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction:row;
+
+}***/
+
+/**.logofooter{
+  margin-left:80px;
+  margin-top:40px;
 }
 
-.App-link {
-  color: #61dafb;
+.text{
+  margin-top:100px;
+  margin-left:70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.nim{
+  background-color:#2F4F4F;
+}
+
+.bulletfirst {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color:black;
+  margin-left:100px;
+  margin-top:50px;
+
+}
+
+.bullet{
+  font-size:15px;
+  padding: 8px 16px;
+  display:block;
+}
+
+h5{
+  margin-left:1000px;
+}
+
+.textallign{
+  margin-left:1000px;
+
+}***/
+
+.lowerelement{
+  position:absolute;
+  width:1540px;
+  height:218px;
+  background-color:#2F4F4F;
+  display:flex;
+}
+.logofooter{
+  margin-left:80px;
+  margin-top:20px;
+}
+
+.text{
+  color:white;
+  font-size:14px;
+  margin-top:90px;
+  margin-left:70px;
+  
+}
+
+.bulletfirst {
+  list-style-type:none;
+  color:white;
+
+  background-color:#2F4F4F;
+}
+
+.bullet{
+  list-style-type: none;
+  color:white;
+  margin-top:65px;
+  margin-left:200px;
+}
+
+
+.bullet2 {
+  margin-top:70px;
+  margin-left:200px;
+  color:white;
+  list-style-type: none;
+  font-size:15px;
+  
+}
+
+.bullet1{
+  display:block;
+  font-size:15px;
+  padding-bottom:4px;
+  background-color:#2F4F4F; 
+  
+}
+
+h5{
+  margin-left:300px;
+  margin-top:60px;
+  color:white;
+  background-color:#2F4F4F;
+}
+
+.textallign{
+  margin-left:300px;
+  color:white;
+  margin-bottom:10px;
+  background-color:#2F4F4F;
+}
+
+.text1{
+  position:absolute;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+  margin-left:180px;
+  margin-top:10px;
+}
+
+.subtopic{
+  margin-right:160px;
+  color:red;
+}
+
+.maincontainer{
+  margin-top:520px;
+}
+
+.container{
+   border: 2px solid red;
+  border-radius: 5px;
+  width:1200px;
+  height:300px;
+  margin:auto;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.content{
+  padding:15px;
+  font-size:20px;
+}
+
+.contactContainer{
+   background-image: linear-gradient(#FFA07A,#FFEFD5);
+   height:625px;
+   font-size:30px;
+}
+
+.connect{
+  margin-left:500px;
+  padding-bottom:60px;
+}
+
+textarea{
+  margin-left:300px;
+  
+}
+
+.textbox{
+  margin-top:40px;
+}
+
+.claim{
+  color:red;
+  margin-top:80px;
+}
+
+hr{
+  margin-top:300px;
+  width:800px;
+}
+
+@media screen and (min-width: ) {
+  html {
+    font-size: 2vw;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
